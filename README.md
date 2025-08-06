@@ -13,7 +13,9 @@ A simple and intuitive Flask web application that counts the frequency of words 
 -->Tech Stack
 
 -Frontend: HTML, CSS (Inline/External)
+
 -Backend: Python, Flask
+
 -Other: Jinja2 (Flask templating)
 
 -->Folder Structure
@@ -23,9 +25,13 @@ A simple and intuitive Flask web application that counts the frequency of words 
 -->How to Run
 
 -pip install flask
+
 -python -m venv venv
+
 -venv\Scripts\activate
+
 -pip install -r requirements.txt
+
 -python app.py
 
 -->Output 

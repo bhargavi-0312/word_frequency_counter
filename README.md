@@ -18,9 +18,12 @@ word-frequency-counter/
 │
 ├── static/
 │   └── style.css              # External CSS styles
+│
 ├── templates/
 │   └── index.html             # Main HTML template
+│
 └── app.py                     # Flask backend logic
+
 
 -->How to Run
 -pip install flask

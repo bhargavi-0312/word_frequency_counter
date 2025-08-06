@@ -2,6 +2,7 @@
 
 A simple and intuitive Flask web application that counts the frequency of words in a block of text submitted by the user.
 
+
 --> Features
 
 - Paste any block of text
@@ -9,6 +10,7 @@ A simple and intuitive Flask web application that counts the frequency of words 
 - Shows total number of words
 - Responsive and user-friendly interface
 - Powered by Python & Flask
+
 
 -->Tech Stack
 
@@ -18,9 +20,11 @@ A simple and intuitive Flask web application that counts the frequency of words 
 
 -Other: Jinja2 (Flask templating)
 
+
 -->Folder Structure
 
 <img width="470" height="174" alt="image" src="https://github.com/user-attachments/assets/aa1df587-c3eb-4a52-af8e-e83bf356a307" />
+
 
 -->How to Run
 
@@ -33,6 +37,7 @@ A simple and intuitive Flask web application that counts the frequency of words 
 -pip install -r requirements.txt
 
 -python app.py
+
 
 -->Output 
 

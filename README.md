@@ -14,6 +14,7 @@ A simple and intuitive Flask web application that counts the frequency of words 
 -Other: Jinja2 (Flask templating)
 
 -->Folder Structure
+
 <img width="470" height="174" alt="image" src="https://github.com/user-attachments/assets/aa1df587-c3eb-4a52-af8e-e83bf356a307" />
 
 -->How to Run

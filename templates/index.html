@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Frequency Counter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        textarea {
+            width: 70%;
+            height: 150px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px 15px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Word Frequency Counter</h1>
+    <form method="POST">
+        <textarea name="text" placeholder="Paste your text here..." required></textarea><br>
+        <button type="submit">Count Words</button>
+    </form>
+
+    {% if word_freq %}
+        <h2>Word Frequencies</h2>
+        <p><strong>Total Words: {{ total_words }}</strong></p>  <!-- ✅ Added this line -->
+        <table>
+            <tr>
+                <th>Word</th>
+                <th>Count</th>
+            </tr>
+            {% for word, count in word_freq.items() %}
+            <tr>
+                <td>{{ word }}</td>
+                <td>{{ count }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% endif %}
+</body>
+</html>
